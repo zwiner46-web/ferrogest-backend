@@ -1,43 +1,17 @@
 {
-  "name": "backend",
+  "name": "ferrogest-backend",
   "version": "1.0.0",
-  "description": "Backend API para el sistema de información FerroGest",
+  "description": "Backend for FerroGest",
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
-    "dev": "node --watch index.js",
-    "build": "npx prisma generate && npx prisma migrate deploy",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "npx prisma generate"
   },
-  "keywords": [
-    "ferrogest",
-    "backend",
-    "express",
-    "prisma",
-    "postgresql"
-  ],
-  "author": "",
-  "license": "ISC",
-  "type": "commonjs",
   "dependencies": {
-    "@prisma/client": "^5.22.0",
-    "bcrypt": "^6.0.0",
-    "bcryptjs": "^3.0.3",
-    "cors": "^2.8.6",
-    "dotenv": "^18.0.9",
-    "express": "^5.3.0",
-    "jsonwebtoken": "^9.0.3",
-    "multer": "^2.5.0",
-    "nodemailer": "^10.3.1",
-    "pg": "^8.23.1",
-    "prisma": "^5.22.0"
-  },
-  "devDependencies": {
-    "autoprefixer": "^10.6.2",
-    "postcss": "^8.5.32",
-    "tailwindcss": "^4.3.3"
-  },
-  "prisma": {
-    "seed": "node ./prisma/seed.js"
+    "@prisma/client": "^5.x.x",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "prisma": "^5.x.x"
   }
 }
