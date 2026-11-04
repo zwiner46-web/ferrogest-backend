@@ -1,7 +1,7 @@
 {
   "name": "ferrogest-backend",
   "version": "1.0.0",
-  "description": "Backend for FerroGest",
+  "description": "Backend for FerroGest - actualizacion para despliegue limpio",
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
