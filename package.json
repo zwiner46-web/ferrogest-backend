@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
-    "build": "node node_modules/prisma/build/index.js generate"
+    "build": "npx prisma generate && npx prisma db push"
   },
   "dependencies": {
     "@prisma/client": "^5.22.0",
